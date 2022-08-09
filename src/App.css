@@ -55,3 +55,19 @@ button:focus {
   border-color: #884ea0;
   box-shadow: 0 0 0 0.2rem rgba(155, 89, 182, 0.5);
 }
+
+.error-mensage {
+  width: 100%;
+  margin-top: .25rem;
+  font-size: .85rem;
+  color: red;
+}
+
+.isError {
+  border-color: red;
+}
+
+.isError:focus {
+  border-color: red;
+  box-shadow: 0 0 0 0.2rem rgba(252, 13, 13, 0.5);
+}
